@@ -32,9 +32,6 @@ for n1 in notices_title:
 for n2 in notices_content:
   b.append(n2.text.strip())
 
-group_data = OrderedDict()
-
 for i in range(len(a)):
-  group_data[a[i]] = b[i]
-
-print(a)
+  print(a[i])
+  print(b[i])
